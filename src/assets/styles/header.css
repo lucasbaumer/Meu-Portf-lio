@@ -23,14 +23,22 @@ body{
     text-decoration: none;
 }
 
-#contacts{
+#social-media{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 2rem;
 }
 
-p{
+#social-media img{
+    transition: color 0.4s ease-in-out, height 0.4s ease-in-out;
+}
+
+#social-media img:hover{
+    height: 4rem;
+}
+
+.options{
     color: #9C9C9C;
     text-decoration: none;
     cursor: pointer;
@@ -38,8 +46,8 @@ p{
     transition: color 0.4s ease-in-out, font-size 0.4s ease-in-out;
 }
 
-p:hover{
-    color: white;
+.options:hover{
+    color: #7ed957;
     font-size: 1.5rem;
 }
 

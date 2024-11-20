@@ -1,6 +1,6 @@
 <template>
     <div id="container-home">
-
+    
         <div id="intro-text">
         <h1>Lucas Andreas Baumer</h1>
         <h4>
@@ -8,9 +8,9 @@
             inovadoras. Neste espaço, você encontrará alguns dos meus projetos 
             e experiências profissionais.
         </h4>
-        <h3>
+        <h4 class="sub-text">
             Fique à vontade para explorar e, se quiser trocar ideias, entre em contato!
-        </h3>
+        </h4>
         </div>
 
         <div id="image">

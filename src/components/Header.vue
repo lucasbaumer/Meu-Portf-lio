@@ -2,22 +2,22 @@
     <div id="header">
         <div class="links">
             <router-link to="/home">
-                <p>Home</p>
+                <p class="options">Home</p>
             </router-link>
 
-            <router-link to="">
-                <p>About me</p>
+            <router-link to="/about-me">
+                <p class="options">About me</p>
             </router-link>
 
-            <router-link to="">
-                <p>Experiences</p>
+            <router-link to="/experiences">
+                <p class="options">Experiences</p>
             </router-link>
 
-            <router-link to="">
-                <p>Curriculum</p>
+            <router-link to="/curriculum">
+                <p class="options">Curriculum</p>
             </router-link>
 
-            <div id="contacts">
+            <div id="social-media">
                 <a href="https://www.linkedin.com/in/lucas-andreas-baumer-8563b8273/" target="_blank">
                 <img :src="LinkedinIcon" alt="Linkedin-Icon">
                 </a>
